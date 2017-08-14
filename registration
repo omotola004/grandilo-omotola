@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registraion</title>
+        <!--link to bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style>
+            body{
+                background-color: #fff;
+                font-size: 16;
+                font-family: elephant, sans-serif;
+            }
+            .row{
+                margin: 0 250px;
+                padding: 100px;
+                background-color: #ccc;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            h1{
+                text-align: center;
+            }
+            .form-control{
+                border: 1px solid #80a7d6;
+                border-radius: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h1>SIGN UP</h1><br/>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label>username</label>
+                        <input type="text" name="fullname" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" name="useremail" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="text" name="phoneno" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" name="pwd" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Confirm Password</label>
+                        <input type="password" name="cpwd" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="login" Value="Register" class="btn btn-info">
+                        <input type="reset" name="resets" Value="RESET" class="btn btn-danger">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
